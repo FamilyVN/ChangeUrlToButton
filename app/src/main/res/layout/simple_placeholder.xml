@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.vutuananh.changeurltobutton.model.ViewModel"/>
+
+        <variable
+            name="listener"
+            type="com.vutuananh.changeurltobutton.model.ViewModel"/>
+
+        <variable
+            name="position"
+            type="int"/>
+    </data>
+
+    <View android:tag="placeholder"/>
+</layout>
